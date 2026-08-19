@@ -47,7 +47,7 @@ services:
     <<: *typebot-common
     image: baptistearno/typebot-builder:latest
     ports:
-      - "8080:3000"
+      - "8085:3000"
 
   typebot-viewer:
     <<: *typebot-common
